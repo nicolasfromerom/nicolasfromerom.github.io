@@ -204,14 +204,14 @@ nav .menu-btn{
 .contacto-list {
     display: flex;
     height: 60px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
 .contacto-list i{
     color: #01A4DF;
     width: 18%;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .contacto-list div p{
