@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu+Condensed&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.8rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+nav{
+    background-color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav .logo{
+    width: 100px;
+    margin: -20px 0;
+}
+
+nav .menu {
+    display: none;
+}
+
+nav .menu-btn{
+    color: #01293E;
+    display: block;
+}
+
+.presentacion, #about-me, #skills, #contacto{
+    padding: 32px;
+    padding: 32px;
+}
+
+.presentacion {
+    color: #eee;
+    background-image: url("./img/banner-tec.png");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 304px;
+    padding-bottom: 200px;
+    
+}
+
+.presentacion h2{
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.presentacion h1{
+    font-size: 8rem;
+}
+
+.btn{
+    background-color: #01A4DF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #eee;
+    border: none;
+    margin-top: 15px;
+    font-size: 2rem;
+    border: 3px solid #01A4DF;
+}
+
+.btn:hover {
+    cursor: pointer;
+    border: 3px solid #01A4DF;
+    background-color: #eeeeee;
+    color: #01A4DF
+}
+
+#about-me{
+    color: #01293E;
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#about-me img{
+    width: 250px;
+    margin: auto;
+    display: flex;
+}
+
+#about-me .btn {
+    text-align: center;
+}
+
+#about-me h2{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-me-description{
+    font-size: 1.8rem;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#services {
+    color: #ffffff;
+    background-color: #01293E;
+    padding: 1.8px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#services h2{
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.card{
+    padding: 24px;
+    background-color: #011b29;
+    margin: 10px;
+    border-radius: 5px;
+    line-height: 20px;
+    padding: 30px;
+}
+
+.card h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.card .service-icon{
+    font-size: 5rem;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: #01A4DF;
+}
+
+.card p{
+    text-align: center;
+}
+
+.card:hover {
+    background-color: #01A4DF;
+    
+}
+
+.card:hover .service-icon{
+    color: white
+}
+
+#skills {
+    color: #011b29;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#skills h2, #skills ul {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.technologies ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.technologies ul li {
+    margin-bottom: 30px;
+    font-size: 7rem;
+}
+
+.technologies ul li:hover {
+    color: #01A4DF;
+}
+
+.datos-contacto h2{
+    margin-bottom: 30px;
+}
+
+.datos-contacto ul{
+    list-style: none;
+    font-size: 2rem;
+}
+
+.contacto-list {
+    display: flex;
+    height: 60px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contacto-list i{
+    color: #01A4DF;
+    width: 18%;
+    font-size: 5rem;
+}
+
+.contacto-list div p{
+    text-align: left;
+}
+form h2 {
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%;
+    border: 1px solid #011b29;
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.message{
+    height: 100px;
+}
+
+footer {
+    padding: 32px;
+    background-color: #01293E;
+    color: #eeeeee;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+
+@media (min-width: 600px) {
+    nav {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    nav .logo{
+        width: 200px;
+        margin: -80px 0;
+    }
+
+    nav ul{
+        list-style: none;
+        float: right;
+    }
+
+    nav ul li {
+        display: inline-block;
+        padding: 0 30px;
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: #01293E;
+    }
+
+    nav .menu-btn{
+        color: #01293E;
+        display: none;
+    }
+
+    nav .menu {
+        display: block;
+    }
+
+    .presentacion , #about-me, #services, #contacto{
+        padding-left:250px;
+        padding-right:250px;
+    }
+
+    .about-me {
+        display: flex;
+    }
+
+    .about-me figure, .about-container-description {
+        width: 50%;
+    }
+
+    .service-card {
+        display: flex;
+    }
+
+    .service-card .card {
+        width: 400px;
+    }
+
+    .contacto-information{
+        display: flex;
+    }
+
+    .contacto-information section, .contacto-information form{
+        width: 50%;
+    }
+}
+

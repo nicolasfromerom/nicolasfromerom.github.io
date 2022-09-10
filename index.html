@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <figure>
+            <img class="logo" src="./assets/img/nicolas-romero-logo.webp" alt="Nicolas Romero">
+        </figure>
+        <ul class="menu">
+            <li> <a href="#home">Inicio</a> </li>
+            <li> <a href="#about-me">Sobre mi</a></li>
+            <li> <a href="#skills">Skills</a></li>
+            <li> <a href="#services">Mis Servicios</a></li>
+            <li> <a href="#contacto">Contáctame</a></li>
+            <li> <button class="btn">CV</button></li>
+        </ul>
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <main>
+        <section id="home" class="presentacion">
+            <h2>Hola Soy</h2>
+            <h1>Nicolas Romero</h1>
+            <h2>Full Stack Developer</h2>
+            <button class="btn">
+                Contáctame
+            </button>
+        </section>
+        <section id="about-me">
+            <h2>Sobre Mí</h2>
+            <div class="about-me">
+                <figure>
+                    <img src="./assets/img/dev-web.png" alt="Nicolas Romero">
+                </figure>
+                <div class="about-container-description">
+                    <div class="about-me-description">
+                        <p>
+                            Profesional de Desarrollador Web. Con experiencia en el uso de frameworks como Laravel y Codeigniter, desarrollo de APIs, integraciones de pasarelas de pago, Git y GitHub. Además, del uso de tecnologías frontend, como JavaScript, HTML, CSS, Vue.js, Angular. 
+                        </p>
+                        <p>
+                            Autodidacta y apasionado de la tecnología, abierto a desafíos que me hagan crecer como profesional. Para conocer más sobre mí Puedes descargar mi CV.
+                        </p>
+                    </div>
+                    <button class="btn">
+                        Descarga Mi CV
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <h2>Mis Servicios</h2>
+            <div class="service-card">
+                <section class="card">
+                    <h3>Diseño de paginas web</h3>
+                    <i class="fa-solid fa-code service-icon"></i>
+                    <p>
+                        Crea una impresión duradera para tu negocio con un diseño de web profesional
+                    </p>
+                </section>
+                <section class="card">
+                    <h3>Desarrollo de software a medida</h3>
+                    <i class="fa-solid fa-desktop service-icon"></i>
+                    <p>
+                        Diseño y creación de herramientas informáticas basadas en necesidades particulares de la empresa
+                    </p>
+                </section>
+                <section class="card">
+                    <h3>E-commerce</h3>
+                    <i class="fa-solid fa-cart-shopping service-icon"></i>
+                    <p>
+                        Migra tu tienda física y vende miles de productos por internet
+                    </p>
+                </section>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Mis Habilidades</h2>
+            <section class="technologies">
+                <ul>
+                    <li class="tech-list"> 
+                        <i class="fa-brands fa-php"></i>
+                    </li>
+                    <li class="tech-list"> 
+                        <i class="fa-brands fa-laravel"></i>
+                    </li>
+                    <li class="tech-list">
+                        <i class="fa-brands fa-git"></i>
+                    </li>
+                    <li class="tech-list">
+                        <i class="fa-solid fa-cloud-arrow-up"></i>
+                    </li>
+                    <li class="tech-list">
+                        <i class="fa-brands fa-js"></i>
+                    </li>
+                    <li class="tech-list">
+                        <i class="fa-brands fa-vuejs"></i>
+                    </li>
+                    <li class="tech-list"> 
+                        <i class="fa-brands fa-angular"></i>
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <section id="contacto">
+            <div class="contacto-information">
+                <section class="datos-contacto">
+                    <h2>Contáctame!!!</h2>
+                    <ul>
+                        <li class="contacto-list">
+                            <i class="fa-solid fa-user"></i>
+                            <div>
+                                <b>Nombre</b>
+                                <p>Nicolas Romero</p>
+                            </div>
+                        </li>
+                        <li class="contacto-list">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <b>Email</b>
+                                <p>romero.nicolasone@gmail.com</p>
+                            </div>
+                        </li>
+                        <li class="contacto-list">
+                            <i class="fa-brands fa-github"></i>
+                            <div>
+                                <p>Github</p>
+                            </div>
+                        </li>
+                        <li class="contacto-list">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <div>
+                                <p>Linkedin</p>
+                            </div>
+                        </li>
+                        <li class="contacto-list"> 
+                            <i class="fa-solid fa-map-location"></i>
+                            <div>
+                                <b>Ubicación</b>
+                                <p>Perú</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <form>
+                    <h2>Envíame un mensaje</h2>
+                    <input class="input" type="text" placeholder="Nombre"> 
+                    <input class="input" type="email" placeholder="Email">
+                    <input class="input" type="text" placeholder="Asunto">
+                    <textarea class="input message" placeholder="Mensaje" ></textarea>
+                    <button class="btn">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Nicolas Romero Todos los derechos reservados 2022</p>
+        </section>
+    </footer>
+</body>
+</html>
