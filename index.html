@@ -19,7 +19,6 @@
             <li> <a href="#skills">Skills</a></li>
             <li> <a href="#services">Mis Servicios</a></li>
             <li> <a href="#contacto">Contáctame</a></li>
-            <li> <button class="btn">CV</button></li>
         </ul>
         <div class="menu-btn">
             <i class="fa-solid fa-bars"></i>
@@ -110,53 +109,50 @@
             </section>
         </section>
         <section id="contacto">
+            <h2>Información de Contacto</h2>
             <div class="contacto-information">
                 <section class="datos-contacto">
-                    <h2>Contáctame!!!</h2>
                     <ul>
                         <li class="contacto-list">
                             <i class="fa-solid fa-user"></i>
-                            <div>
-                                <b>Nombre</b>
-                                <p>Nicolas Romero</p>
-                            </div>
+                            <p><b>Nombre</b></p>
+                            <p>Nicolas Romero</p>
                         </li>
                         <li class="contacto-list">
-                            <i class="fa-solid fa-envelope"></i>
-                            <div>
-                                <b>Email</b>
+                            <a href="mailto:romero.nicolasone@gmail.com" id="mail">
+                                <i class="fa-solid fa-envelope"></i>
+                                <p><b>Email</b></p>
                                 <p>romero.nicolasone@gmail.com</p>
-                            </div>
+                            </a>
                         </li>
                         <li class="contacto-list">
-                            <i class="fa-brands fa-github"></i>
-                            <div>
-                                <p>Github</p>
-                            </div>
+                            <a href="https://github.com/nicolasfromerom" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                                <p><b>Github</b></p>
+                            </a>
                         </li>
                         <li class="contacto-list">
-                            <i class="fa-brands fa-linkedin"></i>
-                            <div>
-                                <p>Linkedin</p>
-                            </div>
+                            <a href="https://www.linkedin.com/in/nicolasfromerom/" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                                <p><b>Linkedin</b></p>
+                            </a>
                         </li>
                         <li class="contacto-list"> 
                             <i class="fa-solid fa-map-location"></i>
-                            <div>
-                                <b>Ubicación</b>
-                                <p>Perú</p>
-                            </div>
+                            <p><b>Ubicación</b></p>
+                            <p>Perú</p>
                         </li>
                     </ul>
                 </section>
-                <form>
+                <form id="form" action="">
                     <h2>Envíame un mensaje</h2>
-                    <input class="input" type="text" placeholder="Nombre"> 
-                    <input class="input" type="email" placeholder="Email">
-                    <input class="input" type="text" placeholder="Asunto">
-                    <textarea class="input message" placeholder="Mensaje" ></textarea>
-                    <button class="btn">Enviar</button>
+                    <input class="input" type="text" required name="name" id="name" placeholder="Nombre"> 
+                    <input class="input" type="email" required name="email" id="email"  placeholder="Email">
+                    <input class="input" type="text" required name="asunto" id="asunto"  placeholder="Asunto">
+                    <textarea class="input message" required name="mensaje" id="mensaje"  placeholder="Mensaje" ></textarea>
+                    <button type="submit" class="btn">Enviar</button>
                 </form>
+                
             </div>
         </section>
     </main>
@@ -165,5 +161,6 @@
             <p>Nicolas Romero Todos los derechos reservados 2022</p>
         </section>
     </footer>
+    <script src="./assets/index.js"></script>
 </body>
 </html>
